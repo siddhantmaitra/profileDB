@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: calc(100vw - 34px);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  margin-bottom: 2em;
+}
+
+.main-segment {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+  padding: 0 !important;
+}
+
+a {
+  color: #009c95;
+}
+
+a:hover {
+  color: #06746e;
+  filter: brightness(60%);
+}
+
+.nav-bar {
+  height: 4em !important;
+  position: sticky;
+  top: 1px;
+  z-index: 10;
+}
+
+.nav-bar .menu .item {
+  font-size: 1.2em !important;
+}
+
+.nav-bar .menu a:hover {
+  color: rgb(7, 63, 63) !important;
+}
+
+.nav-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-logo {
+  height: 25px !important;
+  font-size: 1.3em;
+  margin-bottom: 0.2em;
+  align-self: flex-start;
+}
+
+.nav-link {
+  color: rgb(9, 85, 85);
+}
+
+.nav-link:hover {
+  color: rgba(9, 85, 85, 50);
+}
+
+.name-header {
+  margin-left: 8px;
+}
+
+.search-card {
+  margin-bottom: 1em !important;
+}
+
+.contacts-display {
+  margin-top: 20px;
+}
+
+.modal {
+  padding: 10px;
+}
+
+.avatar-label {
+  margin-top: 3px !important;
+  margin-left: 0px !important;
+}
+
+.avatar-image:hover {
+  cursor: pointer;
+}
+
+.avatar-preview {
+  margin: 0 auto;
+}
+
+.upload-preview {
+  display: block;
+  margin: 1.5em auto;
+}
+
+.clear-preview-btn {
+  margin-top: 0.3em !important;
+}
+
+.card-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.contact-edit-btn {
+  margin-right: 1em !important;
+}
+
+.edit-btn .icon {
+  color: #49769c !important;
+}
+
+.delete-btn .icon {
+  color: #db2828 !important;
+}
+
+.login-reg-card {
+  padding-left: 14em !important;
+  padding-right: 14em !important;
+  padding-bottom: 2em !important;
+}
+
+.main-text {
+  margin-top: 3em !important;
+}
+
+.auth-form {
+  margin-bottom: 2em;
+}
+
+.dark-mode-input input {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+  border: 1px solid rgb(233, 230, 230) !important;
+}
+
+.dark-mode-card .content {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-card .content strong {
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-modal {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-modal .header {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-modal .content {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-modal label {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-modal input {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+  border: 1px solid white !important;
+}
+
+.dark-mode-modal .field .dropdown {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+  border: 1px solid white !important;
+}
+
+.dark-mode-modal .field .dropdown i {
+  color: rgb(233, 230, 230) !important;
+  border-width: 0 !important;
+  border-bottom-width: 1px !important;
+}
+
+.dark-mode-modal .field .dropdown .menu .item {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-modal .field .dropdown .menu .selected {
+  color: rgb(194, 229, 229) !important;
+  background-color: rgb(70, 70, 63) !important;
+}
+
+.dark-mode-modal .field .dropdown .menu .item:hover {
+  background-color: rgb(95, 95, 91) !important;
+}
+
+.dark-mode-modal i {
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-modal label i {
+  color: black !important;
+}
+
+.dark-mode-modal .actions {
+  background: #1b1c1d !important;
+}
+
+.dark-mode-auth-form label {
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-auth-form .header {
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-auth-form input {
+  background: #1b1c1d !important;
+  color: rgb(233, 230, 230) !important;
+  border: 1px solid rgb(233, 230, 230) !important;
+}
+
+.dark-mode-auth-form .input i {
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-auth-form input:autofill {
+  color: #1b1c1d !important;
+  border: 1px solid rgb(233, 230, 230) !important;
+}
+
+.dark-mode-auth-form .input .button i {
+  color: black !important;
+}
+
+.dark-mode-clear-btn i {
+  color: black !important;
+}
+
+.dark-mode-info-text {
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-menu {
+  background: #24282c !important;
+}
+
+.dark-mode-menu .item * {
+  color: rgb(233, 230, 230) !important;
+}
+
+.dark-mode-segment {
+  border: 1px solid rgb(233, 230, 230) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+  }
+
+  .edit-btn {
+    padding: 5px !important;
+  }
+
+  .delete-btn {
+    padding: 5px !important;
+  }
+
+  .contact-edit-btn {
+    padding: 8px !important;
+  }
+
+  .contact-del-btn {
+    padding: 8px !important;
+  }
+
+  .login-reg-card {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    padding-bottom: 1em !important;
+  }
+
+  .login-reg-bottom-text {
+    margin-top: 4em !important;
+  }
+}
